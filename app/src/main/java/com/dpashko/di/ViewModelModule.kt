@@ -24,7 +24,7 @@ abstract class ViewModelModule {
     internal abstract fun bindFragmentViewModel(fragmentViewModel: MainFragmentViewModel): ViewModel
 
     @Binds
-    abstract fun bindViewModelFactory(factory: AppViewModelFactory): ViewModelProvider.Factory
+    abstract fun bindViewModelFactory(factory: ViewModelFactory): ViewModelProvider.Factory
 }
 
 @MapKey
